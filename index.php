@@ -32,32 +32,64 @@
 //
 //echo $pasisveikinimas;
 
+//
+//$a = 'D\'Artagnan';
+//$x = count($a);
+//$y = htmlentities("<b>{$a}</b>");
+//$z = html_entity_decode($y);
+//
+//echo $a."<br>";
+//echo $x."<br>";
+//echo $y."<br>";
+//echo $z."<br>";
+//
+//$favcolor = "red";
+//
+//switch($favcolor) {
+//    case "red";
+//        echo "Your favorite color is red!";
+//        break;
+//    case "blue";
+//        echo "Your favorite color is blue!";
+//        break;
+//    case "green";
+//        echo "Your favorite color is green!";
+//        break;
+//    default;
+//        echo "Your favorite color is neither red, blue, nor green!";
+//}
 
-$a = 'D\'Artagnan';
-$x = count($a);
-$y = htmlentities("<b>{$a}</b>");
-$z = html_entity_decode($y);
+//$array = [
+//        [
+//                1,2,4
+//        ],
+//        [
+//                2,10,3
+//        ],
+//        [
+//                0,4,9
+//        ],
+//];
 
-echo $a."<br>";
-echo $x."<br>";
-echo $y."<br>";
-echo $z."<br>";
+$array = array(
+        [
+                1,2,4
+        ],
+        [
+                2,10,3
+        ],
+        [
+                0,4,9
+        ],
+);
 
-$favcolor = "red";
+var_dump($array);
 
-switch($favcolor) {
-    case "red";
-        echo "Your favorite color is red!";
-        break;
-    case "blue";
-        echo "Your favorite color is blue!";
-        break;
-    case "green";
-        echo "Your favorite color is green!";
-        break;
-    default;
-        echo "Your favorite color is neither red, blue, nor green!";
-}
+
+
+
+
+
 
 ?>
 
