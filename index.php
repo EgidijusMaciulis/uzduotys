@@ -45,9 +45,9 @@
             $b = $b += array_reverse ($array)[$i][$i];
         }
 
-        echo ' <br> ' . $b;
+        echo ' <br> Antra istrizaine ' . $b;
 
-        ?>
+        ?>g
 
 
 
