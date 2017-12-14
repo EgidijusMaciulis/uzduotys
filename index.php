@@ -57,7 +57,6 @@ for ($i = 0; $i < count($array); $i++) {
             echo "Duotos trikampio krastines".'<br>'.$a.", ".$b.", "
                 .$c.'<br>'."Trikampi negalima sudaryti".'<br>'.'<br>';
         }
-
     }
 ?>
 
