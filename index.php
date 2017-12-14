@@ -59,11 +59,25 @@ for ($i = 0; $i < count($array); $i++) {
         }
     }
 
-$x = [ -10, 0, 2, 9, -5 ];
-rsort($x);
-$largest = array_slice($x, 0, 5);
 
-print_r($largest);
+
+
+$x = [-10, 0, 2, 9, -5];
+
+echo "<br>";
+
+
+for ($i = 0; $i < count($x)-1; $i++){
+    if ($x[$i] < $x[$i+1]){
+        array_push($x, $x[$i]);
+        array_splice($x, $i, 1);
+        $i = -1;
+    }
+}
+echo "<br> Atsakymas: <br>";
+
+var_dump($x);
+
 
 ?>
 
