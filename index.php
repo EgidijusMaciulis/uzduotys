@@ -58,6 +58,13 @@ for ($i = 0; $i < count($array); $i++) {
                 .$c.'<br>'."Trikampi negalima sudaryti".'<br>'.'<br>';
         }
     }
+
+$x = [ -10, 0, 2, 9, -5 ];
+rsort($x);
+$largest = array_slice($x, 0, 5);
+
+print_r($largest);
+
 ?>
 
 
