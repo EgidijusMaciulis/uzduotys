@@ -52,6 +52,25 @@ function welcome($name = 'Egidijus', $lastename = 'Maciulis') {
 
 welcome('Egidijus', 'Maciulis');
 
+/**
+ * @param $array
+ * @return float|int
+ *
+ */
+function arrayAverage($array)
+{
+    $sum = 0;
+    for ($i = 0; $i < count($array); $i++) {
+        $sum += $array[$i];
+    }
+    $average = $sum / count($array);
+
+    return $average;
+}
+
+$array = [1, 2, 4];
+
+echo arrayAverage($array).'<br>';
 ?>
 
 
