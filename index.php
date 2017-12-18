@@ -47,7 +47,8 @@
 
         echo ' <br> Antra istrizaine ' . $b;
 
-        ?>g
+
+        ?>
 
 
 
