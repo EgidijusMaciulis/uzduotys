@@ -1,0 +1,40 @@
+table, th, td {
+    border: solid 1px black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    background-color: aquamarine;
+    color: #707070;
+
+}
+
+#head {
+     background-color: #0674ff;
+     color: #fff;
+ }
+
+.food {
+    background-color: #ffa73c;
+    color: #fff;
+}
+
+td {
+    width: 300px;
+    height: 100px;
+}
+
+
+
+img {
+    width: 70px;
+    height: 70px;
+}
+
+button {
+    width: 60px;
+    height: 30px;
+    color: #fff;
+    background-color: red;
+    cursor: pointer;
+}
